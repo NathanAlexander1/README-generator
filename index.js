@@ -16,9 +16,29 @@ const questions = [
     name: "description",
   },
   {
+    type: "input",
+    message: "Please include installation instructions for your repo",
+    name: "installation",
+  },  
+  {
+    type: "input",
+    message: "Please include usage information for your repo",
+    name: "usage",
+  },
+  {
+    type: "input",
+    message: "Please include info on contribution guidelines for your repo",
+    name: "contribution",
+  },
+  {
+    type: "input",
+    message: "Please include test instructions for your repo",
+    name: "test",
+  },
+  {
     type: "checkbox",
     message: "What is the license of your repo?",
-    name: "license",
+    name: "licenses",
     choices: ["MIT", "APACHE 2.0", "GPL"],
   },
   {
@@ -29,7 +49,7 @@ const questions = [
   {
     type: "input",
     message: "What is your email address?",
-    name: "email-address",
+    name: "email",
   },
 ];
 
