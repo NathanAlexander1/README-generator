@@ -36,7 +36,7 @@ const questions = [
     name: "test",
   },
   {
-    type: "checkbox",
+    type: "list",
     message: "What is the license of your repo?",
     name: "licenses",
     choices: ["MIT", "APACHE 2.0", "GPL"],
