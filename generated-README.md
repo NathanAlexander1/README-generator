@@ -1,7 +1,7 @@
-# asdfasd
-  ![GitHub license](https://img.shields.io/badge/license-GPL-blue.svg)
+# Nathan Alexander's README Generator
+  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
   ## Description:
-  asdfasdf
+  This repo is designed to use node.js and the Inquirer package to create a dyanamic and professional README file.
   ## Table of Contents:
   [Installation](#installation)
   [Usage](#usage)
@@ -11,19 +11,18 @@
   [Questions](#questions)
 
   ## Installation:
-  asdfasdf
+  User needs to install node.js and the Inquirer package to use this application.
   ## Usage:
-  asdasdf
+  Upon initializing node.js and installing Inquirer, the user simply needs to run index.js in the terminal. From there , the useer will be prompted with several questions, which will be used to generate their professional README file.
 
   ## Licenses: 
   This repo is licensed under the
-  GPL license. Please see the following link:
-  [GPL](#GPL)
+  MIT license.
   ## Contributing:
-  sadasdfa
+  N/A
   ## Tests:
-  asdasd
+  N/A
   ## Questions:
-  See my GitHub at https://github.com/asdfasd
-   To reach me at my personal email, please follow this link: [here](mailto:sdfasd)
+  See my GitHub at https://github.com/NathanAlexander1.
+  To reach me at my personal email, please follow this link: [here](mailto:nika827@msn.com).
 

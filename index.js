@@ -19,7 +19,7 @@ const questions = [
     type: "input",
     message: "Please include installation instructions for your repo",
     name: "installation",
-  },  
+  },
   {
     type: "input",
     message: "Please include usage information for your repo",
@@ -39,7 +39,7 @@ const questions = [
     type: "list",
     message: "What is the license of your repo?",
     name: "licenses",
-    choices: ["MIT", "APACHE 2.0", "GPL"],
+    choices: ["MIT", "APACHE", "GPL", "none"],
   },
   {
     type: "input",
@@ -67,7 +67,7 @@ function writeToFile(fileName, data) {
     if (err) {
       throw err;
     }
-    console.log("success!")
+    console.log("success!");
   });
 }
 

@@ -35,17 +35,17 @@
 // // TODO: Create a function that returns the license section of README
 // // If there is no license, return an empty string
 // function renderLicenseSection(licenses) {
-//   return  `## License: 
+//   return  `## License:
 //   ${renderLicenseBadge(licenses)}
 //   ${renderLicenseLink(licenses)}
 //   `
 // }
 
 function renderLicenseBadge(licenses) {
-  if (licenses !== 'None') {
+  if (licenses !== "None") {
     return `![GitHub license](https://img.shields.io/badge/license-${licenses}-blue.svg)`;
   }
-  return '';
+  return "";
 }
 
 // TODO: Create a function to generate markdown for README
@@ -69,15 +69,16 @@ function generateMarkdown(data) {
 
   ## Licenses: 
   This repo is licensed under the
-  ${data.licenses} license. Please see the following link:
-  [${data.licenses}](#${data.licenses})
+  ${data.licenses} license.
   ## Contributing:
   ${data.contribution}
   ## Tests:
   ${data.test}
   ## Questions:
-  See my GitHub at https://github.com/${data.username}
-   To reach me at my personal email, please follow this link: [here](mailto:${data.email})
+  See my GitHub at https://github.com/${data.username}.
+  To reach me at my personal email, please follow this link: [here](mailto:${
+     data.email
+   }).
 
 `;
 }
