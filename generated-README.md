@@ -1,7 +1,7 @@
-# Nathan Alexander's README Generator
-  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+# Tech Blog
+  ![GitHub license](https://img.shields.io/badge/license-none-blue.svg)
   ## Description:
-  This repo is designed to use node.js and the Inquirer package to create a dyanamic and professional README file.
+  This repo allows users to create and login to their account. Create blog posts, comment on blog posts and view blog posts
   ## Table of Contents:
   [Installation](#installation)
   [Usage](#usage)
@@ -11,13 +11,13 @@
   [Questions](#questions)
 
   ## Installation:
-  User needs to install node.js and the Inquirer package to use this application.
+  Requires BCRYPT, Express.js, handlebars, mySQL, Sequelize
   ## Usage:
-  Upon initializing node.js and installing Inquirer, the user simply needs to run index.js in the terminal. From there , the useer will be prompted with several questions, which will be used to generate their professional README file.
+  User needs an account to use the application. Emails must be unique and passwords must be longer than 8 characters
 
   ## Licenses: 
   This repo is licensed under the
-  MIT license.
+  none license.
   ## Contributing:
   N/A
   ## Tests:
